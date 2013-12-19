@@ -1,0 +1,6 @@
+hi Hint font-family:Ubuntu Mono;font-size:13px;font-weight:normal; color:yellow; background-color:navy;border:solid 1px blue; text-transform: uppercase;
+hi HintElem  background-color: lightgray;  color: black;
+style -name statusbar chrome://* <<EOM
+#status-bar statusbarpanel {padding:0 1px !important;}
+#statusbarpanel > * { margin:0 !important; padding:0 2px 0 0 !important; }
+EOM
